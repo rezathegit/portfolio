@@ -12,7 +12,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
      </div>
      <div className="itemContainer">
     <Mail className="icon"/>
-    <span>reza@asadi.com</span>
+    <span>reza.asadi@appliedtechnology.se</span>
      </div>
       </div>
       <div className="right">
