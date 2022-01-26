@@ -8,10 +8,15 @@ import Contact from "./Components/Contact/Contact";
 
 import "./App.scss";
 
+import {useState } from "react";
+import Menu from "./Components/Menu/Menu";
+
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="App">
-      <Header />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu />
       <div className="sections">
         <Intro />
        <Portfolio />
