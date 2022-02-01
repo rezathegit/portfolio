@@ -5,7 +5,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
   return <div className={"header " + (menuOpen && "active")}>
     <div className="wrapper">
       <div className="left">
-        <a href="#intro" className="logo">logo.</a>
+        <a href="#intro" className="logo">REZA.</a>
      <div className="itemContainer">
     <Person className="icon"/>
     <span>+46 76 583 0573</span>
