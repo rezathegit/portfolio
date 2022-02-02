@@ -26,6 +26,16 @@
             padding: 20px;
             transition: all 1s ease;
 
+            &.featured{
+                widows: 300px;
+                height: 75%;
+                margin: 0 30px;
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
             .top {
                 display: flex;
                 align-items: center;
@@ -42,13 +52,14 @@
                         border-radius: 50%;
                         object-fit: cover;
                         margin: 0 30px;
+                        background-color: lightgrey;
                     }
                 }
             }
             .center {
                 padding: 10px;
                 border-radius: 10px;
-                background-color:rgb(212, 201, 203);
+                background-color: rgb(212, 201, 203);
             }
             .bottom {
                 display: flex;
