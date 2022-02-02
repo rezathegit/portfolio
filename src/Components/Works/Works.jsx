@@ -34,28 +34,30 @@ export default function Works() {
 
   return <div className="works" id="works">
     <div className="slider">
-      <div className="container">
-        <div className="item">
-          <div className="left">
-            <div className="leftContainer">
-              <div className="imgContainer">
-                <img src="assests/mobile.png" alt="" />
+      {data.map((d) => (
+
+        <div className="container">
+          <div className="item">
+            <div className="left">
+              <div className="leftContainer">
+                <div className="imgContainer">
+                  <img src={d.icon} alt="" />
+                </div>
+                <h2>{d.title}</h2>
+                <p>
+                  {d.desc}
+                </p>
+                <span>Projects</span>
               </div>
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Similique et repellat magni velit a repudiandae deleniti voluptate!
-              </p>
-              <span>Projects</span>
+            </div>
+            <div className="right">
+              <img src="https://cdn.dribbble.com/users/949438/screenshots/17410216/media/43c2aed8bdf986c1c3dabbdacb4bd76b.png?compress=1&resize=1600x1200&vertical=top" alt="" />
             </div>
           </div>
-          <div className="right">
-            <img src="https://cdn.dribbble.com/users/949438/screenshots/17410216/media/43c2aed8bdf986c1c3dabbdacb4bd76b.png?compress=1&resize=1600x1200&vertical=top" alt="" />
-          </div>
         </div>
-      </div>
+          ))}
     </div>
-    <img src="assests/arrow.png" className="arrow left" alt="" />
-    <img src="assests/arrow.png" className="arrow right" alt="" />
+    <img src="assets/arrow.png" className="arrow left" alt="" />
+    <img src="assets/arrow.png" className="arrow right" alt="" />
   </div>;
 }
