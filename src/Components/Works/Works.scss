@@ -3,6 +3,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    .arrow {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
 
     .slider {
         height: 350px;
@@ -68,7 +84,17 @@
                 .right {
                     flex: 8;
                     height: 100%;
-                    background-color: blue;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+
+                    img {
+                        width: 450px;
+                        
+                        transform: rotate(-10deg);
+                    }
+
                 }
             }
         }
