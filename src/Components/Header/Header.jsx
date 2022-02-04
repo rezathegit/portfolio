@@ -1,5 +1,6 @@
 import "./Header.scss";
-import {Person, Mail} from "@mui/icons-material"
+import {Person, Mail, LinkedIn} from "@mui/icons-material";
+
 
 export default function Header({ menuOpen, setMenuOpen }) {
   return <div className={"header " + (menuOpen && "active")}>
@@ -7,8 +8,8 @@ export default function Header({ menuOpen, setMenuOpen }) {
       <div className="left">
         <a href="#intro" className="logo">REZA.</a>
      <div className="itemContainer">
-    <Person className="icon"/>
-    <span>+46 76 583 0573</span>
+    <LinkedIn className="icon"/>
+    <span>LinkedIn</span>
      </div>
      <div className="itemContainer">
     <Mail className="icon"/>
