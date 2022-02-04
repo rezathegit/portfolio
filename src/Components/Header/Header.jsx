@@ -23,7 +23,5 @@ export default function Header({ menuOpen, setMenuOpen }) {
         </div>
       </div>
     </div>
-
-    Header
   </div>;
 }
