@@ -1,3 +1,5 @@
+@import "../../Global.scss";
+
 .contactMe {
     height: 100vh;
     background-color: white;
@@ -22,4 +24,46 @@
 
 .contactMe-right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 20px;
+
+
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: $mainColor;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message {
+    color: green;
+    padding-left: 20px;
 }
