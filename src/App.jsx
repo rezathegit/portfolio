@@ -5,6 +5,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Works from "./Components/Works/Works";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
+import ContactMe from "./Components/ContactMe/ContactMe";
 
 import "./App.scss";
 
@@ -23,6 +24,7 @@ function App() {
         <Works />
         <Testimonials />
         <Contact />
+        <ContactMe />
       </div>
     </div>
   );

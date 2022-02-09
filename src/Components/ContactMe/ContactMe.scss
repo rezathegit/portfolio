@@ -1,0 +1,25 @@
+.contactMe {
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.contactMe-bg {
+    width: 20px;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+
+.contactMe-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.contactMe-left {
+    flex: 1;
+}
+
+.contactMe-right {
+    flex: 1;
+}
