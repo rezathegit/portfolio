@@ -11,7 +11,7 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Web Design",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "I started my coding journey as a hubby coder and became more interested in this world. I recently finished a three-months Fullstack JavaScript bootcamp @ School of Applied Technology </salt>. ",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
@@ -20,42 +20,24 @@ export default function Works() {
       icon: "./assets/globe.png",
       title: "Mobile Application",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "As a hobby coder I was always fasinated by mobile apps and the way they impacted our life style. I would like to improve my knowlege through creating creative mobile apps.",
       img:
         "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Architecture",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "I worked as an architect for 10+ years in Sweden. Here you can see some of my works.",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-    {
-      id: "4",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-    {
-      id: "5",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
+    }
   ];
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length-1)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length - 1)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 

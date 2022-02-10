@@ -14,8 +14,22 @@
 }
 
 .contactMe-wrapper {
-    padding: 50px;
+    padding: 80px;
     display: flex;
+
+    @include mobile {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+}
+.contactMe-title {
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+    @include mobile {
+        font-size: 30px;
+    }
 }
 
 .contactMe-left {
@@ -51,16 +65,23 @@ textarea {
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    
+    @include mobile {
+        width: 95%;
+    }
 }
 
 button {
+    width: 150px;
+    height: 30px;
     border: none;
-    padding: 10px;
+    
     background-color: $mainColor;
     color: white;
     font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 30px;
 }
 
 .message {

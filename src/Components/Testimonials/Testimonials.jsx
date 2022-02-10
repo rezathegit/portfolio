@@ -6,7 +6,7 @@ export default function Testimonials() {
     {
       id: 1,
       name: "Milos Tanaskovic",
-      title: "Senior Developer",
+      title: "Fullstack developer @ FOOTWAY",
       img:
         "https://avatars.githubusercontent.com/u/45362409?v=4",
       icon: "assets/twitter.png",
@@ -16,7 +16,7 @@ export default function Testimonials() {
     {
       id: 2,
       name: "Jonatan Petterson",
-      title: "Co-Founder of Metanet",
+      title: "Fullstack developer @ ClimateView",
       img:
         "https://avatars.githubusercontent.com/u/77250488?v=4",
       icon: "assets/youtube.png",
@@ -43,13 +43,12 @@ export default function Testimonials() {
 
     <div className={d.featured ? "card featured" : "card"}>
     <div className="top">
-      <img className="left"
-      src={d.icon} alt="" />
+      {/* <img className="left" src={d.icon} alt="" /> */}
       <img 
       className="user"
       src={d.img} 
       alt="" />
-      <img className="right" src="assets/youtube.png" alt="" />
+      {/* <img className="right" src="assets/youtube.png" alt="" /> */}
     </div>
     <div className="center">
       {d.desc}

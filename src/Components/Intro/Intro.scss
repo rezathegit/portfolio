@@ -24,6 +24,7 @@
             }
             img{
                 height: 100%;
+                position: absolute;
 
 
                 @include mobile {
@@ -104,6 +105,7 @@
             img{
                 width: 30px;
                 animation: arrowBlink 2s infinite;
+                margin-bottom: 50px;
             }
             @keyframes arrowBlink {
                 100%{
