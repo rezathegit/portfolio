@@ -30,7 +30,7 @@ export default function ContactMe() {
     }
 
     return (
-        <div className="contactMe">ContactMe
+        <div className="contactMe">
             <div className="contactMe-bg"></div>
             <div className="contactMe-wrapper">
                 <div className="contactMe-left">
@@ -39,8 +39,8 @@ export default function ContactMe() {
                 <div className="contactMe-right">
                     <p>
                         <b>
-                            What's your story?
-                        </b> Get in touch
+                            Do you want to contact me?
+                        </b> Let's get in touch
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
