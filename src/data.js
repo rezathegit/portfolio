@@ -4,7 +4,7 @@ export const featuredPortfolio = [
       title: "METANET",
       img:
         "https://lh3.googleusercontent.com/TmeTrCSkl9Em_uyQyX5H4X2pSxVY3YMK1OqG7301SN1JHKJ6zx_E444216uO7dfjdh7_z_WTZpXCmZZRvKYrnI0esSGTMKICD-h0NBJ4SmeScPjQiMJvsjuK69DTljuME7EkN4qf63dtx8siSjhgWMLvJshdvlb2I76CtDyk9ModjJJt0dSqv917ouOiauam3pIirTrfs6MnWFWXV4erGUKE4nv-gx9aLRHTmN7y7FhdXgCom4DOSCxS3kjjpNiia0_1vY-sZTXb_rLBOeRw8Xfprm-On_XlNLyaAty0YuFYylu8xv1qVxAbcyZiW-J_O7zD1elSYdLl1aFgNDGFHCzwmwauJTMFTxLfumWVnaezScLFjQssBpp3mm5KeUXcn4tbimbn_jdD7JDWQOUrp_nskfvLQ3bhXugmgSMNsFDnsaqoFbHJnZMLRiOVL-TEQq0jSpnbYR5DiAUIaI0xZfN_0l3UjoCxSNuTatIag3QbQAPGXLZ1Va6vP7a_EqnYhiBHcXBfya_m1TXee9yGDQSAv41Lpnr_Myh-tquy_GwGG9HOf5xjsU7tnbTTMQh3x2G-hMnegs7NmugaRnZWs_p6H_XYbBPRDhP5GLlqv8IHq7D1X2jK6gwJajhvG-_9MK2WX-o2_DsnFAzh4llkYvl4B85zMjhXFiwLPVe4-HDSC8ek7xE6JbFDQB8qV7UuLcv7Wqw6uWz60oDhdI96VA=w1200-h900-no?authuser=0",
-        link: "https://github.com/Metanet-RJMS/metanet"
+        link: "https://github.com/rezathegit/metanet"
       },
       {
         id: 2,
@@ -17,7 +17,7 @@ export const featuredPortfolio = [
       id: 3,
       title: "ToDo app with React",
       img:
-        "hhttps://lh3.googleusercontent.com/34iGq-d7yqr-APXJ0GAa8_VLOkjxl7XR3ol9yRQYcHPdpE4J8tEX-rk4d2T3mZZRsJH8dcZBISdQUbNwpJqLilPw-ce270K48jbhRK37F_6n5v3-pdnzEkB5HeQEgcYnK7ICiSTv_0WwgyoojvRrXUqsEP6q0t0a9i_gNmmIHKxN6e9Evx8VGn8YQulazTth3wczl-YXtj5QC0MOkPa1DMJjwliMzLN8Fq4MX7Fa2ZYgEA7tKjRDEWKSl67jA6lGZj8pYVvNNZde-Kgrha64Dk5zi7dki4Qb6hq34zt2gMj63D3wvkIQ8uhf7EWQpNJIABilMRaoc6xFm3Ji_-YKebI0q9O0J9oxGA4hARr1UXHVdU0JpMKySyPtx4EGrESg8Y8BOf0HIo0DdtO_zPxW_gAQJturjXBJPVS4vdCSkxi8NlUhCghDFbhFCABj_ajO0Bew_maeB57dxOFfhiwy937I4M7GV3K86LcselKIK6JrDfkOUM5vWgIHStMnkX9Es9yUHsJ-AyPMvCgQl5NV8bcL-M9F6drr6ZRHr9Qks5Q_HfxohKtjHzjWsGOB86FPViDq0QhE8fUUstsRNxAHx33qn8RoqxYg0LkuHeKMuF_LlKh9L0Vakb1ucAdXakusxg7CRWrfDtfWDn_7PjVOgGnIGLy1rbQhOjm6V_GlUmaaQoWeDbUNQWUyEaDQCypFWvuIkLx3OJ1DMvALhMsJbw=w1200-h900-no?authuser=0",
+        "https://lh3.googleusercontent.com/34iGq-d7yqr-APXJ0GAa8_VLOkjxl7XR3ol9yRQYcHPdpE4J8tEX-rk4d2T3mZZRsJH8dcZBISdQUbNwpJqLilPw-ce270K48jbhRK37F_6n5v3-pdnzEkB5HeQEgcYnK7ICiSTv_0WwgyoojvRrXUqsEP6q0t0a9i_gNmmIHKxN6e9Evx8VGn8YQulazTth3wczl-YXtj5QC0MOkPa1DMJjwliMzLN8Fq4MX7Fa2ZYgEA7tKjRDEWKSl67jA6lGZj8pYVvNNZde-Kgrha64Dk5zi7dki4Qb6hq34zt2gMj63D3wvkIQ8uhf7EWQpNJIABilMRaoc6xFm3Ji_-YKebI0q9O0J9oxGA4hARr1UXHVdU0JpMKySyPtx4EGrESg8Y8BOf0HIo0DdtO_zPxW_gAQJturjXBJPVS4vdCSkxi8NlUhCghDFbhFCABj_ajO0Bew_maeB57dxOFfhiwy937I4M7GV3K86LcselKIK6JrDfkOUM5vWgIHStMnkX9Es9yUHsJ-AyPMvCgQl5NV8bcL-M9F6drr6ZRHr9Qks5Q_HfxohKtjHzjWsGOB86FPViDq0QhE8fUUstsRNxAHx33qn8RoqxYg0LkuHeKMuF_LlKh9L0Vakb1ucAdXakusxg7CRWrfDtfWDn_7PjVOgGnIGLy1rbQhOjm6V_GlUmaaQoWeDbUNQWUyEaDQCypFWvuIkLx3OJ1DMvALhMsJbw=w1200-h900-no?authuser=0",
         link: "https://github.com/rezathegit/Todo-React"
     },
     {

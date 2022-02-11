@@ -31,7 +31,7 @@ export default function Works() {
       desc:
         "I worked as an architect for 10+ years in Sweden. Here you can see some of my works.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "https://lh3.googleusercontent.com/1NtmMMsa6o3HBgaB7nPN5APP4voyUP3iZUM2Z6_fnXTb-eYaa-VLmLC4JWsMVNWMW9_CgfhszSOBotP2bJp654XMCpiCYwBDVimTkB_hRhY0YVNEiYtT2WssvOVwIn9sIAevoTqViHgFoa7_-aRhOV8lxOgPkAFxSrhrtPsPN511bMGL8s4-MC3xMHgClgIXPkPt71g_lklLLGysqAH9KOY8eXlGUkgB9yAcvuYKL19WoCmpPgo07ba4Zs442fmk7IY2UD9qRylyInY_Z3eQHY1b0Gpu4lm4XMX7AeVO4yphu-NkzUGsRYya96XL6m49jdCGEJvtNpgSkMhznhCv_1Bnq09ojjQZqRuG-Faee5oUnvdEkiNJjEhGLeJunNvrjt9j_p1tj7stTcjJID0w-kepKaJcamaZsgM0luWQQ7a-RsV7XM-yPFMFEr3T_bzDff-4eKZtbrcpSDKPHWzOQiOISIniPVJt7Uv0Z-f7P39grM0ehiAshcpGmna6AgINQO1S0yo4yKMV-13c8uw5_g_2Pz_KJKWAmVGwiYCrE_JrohqnJQDq_1-SjHCa5W7frQ0CKprNXbau2kFf-63-VDbr7INnpjauqlaNNsc8sCfc5Q1uhv_rsb7mu8Lnl5FibYfe4kDIDviOwOHIKcsRSzN6OVG0rFZdfBLmeEHYG2Sk59UzhGAZm1zKOL086Qo-ve5mTPrdgQh9Zg4caVNHfQ=w1600-h1200-no?authuser=0",
     }
   ];
 
@@ -60,7 +60,7 @@ export default function Works() {
               </div>
             </div>
             <div className="right">
-              <img src="https://cdn.dribbble.com/users/949438/screenshots/17410216/media/43c2aed8bdf986c1c3dabbdacb4bd76b.png?compress=1&resize=1600x1200&vertical=top" alt="" />
+              <img src={d.img} alt="" />
             </div>
           </div>
         </div>
