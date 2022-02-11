@@ -30,7 +30,7 @@ export default function ContactMe() {
     }
 
     return (
-        <div className="contactMe">
+        <div className="contactMe" id="contactMe">
             <div className="contactMe-bg"></div>
             <div className="contactMe-wrapper">
                 <div className="contactMe-left">

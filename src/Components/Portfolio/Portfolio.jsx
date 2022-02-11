@@ -52,8 +52,8 @@ export default function Portfolio() {
         setData(contentPortfolio);
         break;
 
-        default:
-          setData(featuredPortfolio);
+      default:
+        setData(featuredPortfolio);
     }
 
   }, [selected])
@@ -71,14 +71,16 @@ export default function Portfolio() {
       ))}
     </ul>
     <div className="container">
-      {data.map((d)=> (
+      {data.map((d) => (
 
         <div className="item">
-        <img src={d.img}
-        alt="" />
-        <h3>{d.title}</h3>
-      </div>
-        ))}
+          <a href={d.link} target="_blank" rel="noopener noreferrer">
+          <img src={d.img}
+          alt="" />
+          <h3>{d.title}</h3>
+          </a>
+        </div>
+      ))}
     </div>
   </div>;
 }
