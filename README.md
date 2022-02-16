@@ -1,7 +1,7 @@
 # Portfolio
 
 
-Check out my portfolio here: https://eloquent-jackson-a650fd.netlify.app
+Check out my portfolio deployed on [Netlify](https://eloquent-jackson-a650fd.netlify.app)
 
 
 -----
